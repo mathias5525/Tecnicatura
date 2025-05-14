@@ -1,0 +1,12 @@
+var nombre = "Jose";
+var apellido = "Montes";
+var nombreCompleto = nombre + " " + apellido;
+console.log(nombreCompleto); // Jose Montes
+var nombreCompleto2 = `${nombre} ${apellido}`;
+console.log(nombreCompleto2); // Jose Montes
+var juntos = nombre + 78 + 17;
+console.log(juntos); // Jose7817
+var juntos2 = nombre + (78 + 17);   
+console.log(juntos2); // Jose95
+nombre+=apellido
+console.log(nombre); // JoseMontes
