@@ -14,3 +14,13 @@ if (edad !== null) {
     alert("Por favor, introduce un número válido.");
   }
 }
+
+//Ejerccio: dentro de un rango
+let dentroRango = 5;
+let valMin = 0, valMax =10;
+if (dentroRango >= valMin && dentroRango <= valMax) {
+  console.log("El número está dentro del rango.");
+}
+else {
+  console.log("El número está fuera del rango.");
+}
