@@ -8,5 +8,13 @@ var juntos = nombre + 78 + 17;
 console.log(juntos); // Jose7817
 var juntos2 = nombre + (78 + 17);   
 console.log(juntos2); // Jose95
+
 nombre+=apellido
 console.log(nombre); // JoseMontes
+
+let nombre2 = "Pedro";
+console.log(nombre2); // Pedro
+
+const apellido2 = "Lepes";
+console.log(apellido2); // Lepes
+// apellido2 = "Perez"; // Esto causaría un error porque apellido2 es una constante

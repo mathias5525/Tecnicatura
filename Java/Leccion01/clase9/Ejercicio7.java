@@ -6,7 +6,7 @@ Hacer un programa que calcule e imprima el salario mensual de un vendedor dado.
 El salario de 1000 lo vamos a manejar como un dato constante, para asignarlo debemos usar la 
 palabra reservada "final"
 */
-package clase9;
+package Leccion01.clase9;
 import java.util.Scanner;
 
 public class Ejercicio7 {
