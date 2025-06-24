@@ -252,6 +252,8 @@ public class HolaMundo {
           System.out.println("Es menor de edad");
       } */
 
+      /*CLASE 8- OPERADORES CONDICIONALES */
+
       /*var valorA = 7;
       var varlorMinimo = 0;
       var valorMaximo = 10;
@@ -271,12 +273,15 @@ public class HolaMundo {
       }*/
 
       //Operador ternario
+
       /*var resultadoT = (5 > 4) ? "5 es mayor que 4" : "5 no es mayor que 4";
       System.out.println("resultadoT = " + resultadoT);
 
       var numeroT = 7; 
       resultadoT = (numeroT % 2 == 0) ? "El numero es par" : "El numero es impar";
       System.out.println("resultadoT = " + resultadoT);  */
+
+      // PRIORIDAD DE OPERADORES
 
       /*var x = 5;
       var y = 10;
@@ -291,6 +296,8 @@ public class HolaMundo {
       var solucionAritmetica2 = (4 + 5) * 6 / 3; // Uso de paréntesis para cambiar el orden de las operaciones
       System.out.println("solucionAritmetica2 = " + solucionAritmetica2); // Resultado: (4 + 5) * 6 / 3 = 9 * 6 / 3 = 54 / 3 = 18
       */
+
+      //CLASE8:  8.7 EJERCICIOS
 
       //Ejercicio sacar area y perimetro de un rectangulo
         /*Scanner entrada = new Scanner(System.in);
@@ -313,6 +320,7 @@ public class HolaMundo {
         String resultado = (num1 > num2) ? "El mayor es: " + num1 : (num2 > num1) ? "El mayor es: " + num2 : "Los números son iguales";
         System.out.println(resultado);
         entrada.close();
+        
 
         
 
