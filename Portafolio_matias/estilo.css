@@ -274,7 +274,18 @@ a{
     flex-direction: column; /*los elementos se alinean en columna*/
     align-items: center; /*centro los elementos horizontalmente*/
     margin-top: 20px; /*margen superior*/
+    width: 100%; /* ocupa todo el ancho disponible */
+    padding: 0 20px; /* margen lateral interno para que no toque los bordes */
+    box-sizing: border-box; /* incluye el padding dentro del ancho total */
+ 
 }
+.contacto .contenido-seccion .formulario iframe{
+    border: none;
+    width: 640px; 
+    max-width: 100%;
+    height: 840px;
+}
+
 .contacto .contenido-seccion .fila{
     display: flex; /*para que los elementos se alineen en fila*/
     justify-content: space-around;  /*espacio entre los elementos*/
@@ -431,6 +442,16 @@ a{
     text-align: center;
   }
 
+ .contacto .contenido-seccion .formulario {
+    width: 100%;
+    padding: 0 10px;
+  }
+
+  .contacto .contenido-seccion .formulario iframe {
+    height: 840px;
+  }
+ 
+
   .contacto .contenido-seccion .iconos {
     flex-wrap: wrap; /* permite que los íconos se acomoden en varias líneas si es necesario */
     gap: 15px;
@@ -440,6 +461,7 @@ a{
     font-size: 26px;
   }
 
+  
   .contacto .contenido-seccion footer {
     font-size: 13px;
     padding: 15px;
